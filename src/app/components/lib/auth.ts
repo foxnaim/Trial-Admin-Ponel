@@ -1,4 +1,4 @@
-export const Login = (role: "user" | "admin") => {
+export const login = (role: "user" | "admin") => {
  localStorage.setItem("role", role);
 };
 

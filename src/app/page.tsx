@@ -1,10 +1,13 @@
 import React from 'react'
+import LoginPage from './components/login/page'
 
 type Props = {}
 
 const Home = (props: Props) => {
   return (
-    <div>page</div>
+ <React.Fragment>
+  <LoginPage/>
+ </React.Fragment>
   )
 }
 
