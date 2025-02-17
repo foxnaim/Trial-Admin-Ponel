@@ -1,5 +1,5 @@
 import React from 'react'
-import LoginPage from './components/login/page'
+import LoginPage from './login/page'
 
 type Props = {}
 

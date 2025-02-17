@@ -12,7 +12,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="flex flex-col items-center gap-4 mt-10">
+    <div className="flex flex-col items-center justify-center gap-4 mt-20">
       <h2 className="text-xl font-bold">Вход</h2>
       <button onClick={() => handleLogin("user")} className="bg-blue-500 text-white p-2 rounded">
         Войти как Пользователь
